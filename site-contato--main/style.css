@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,500;1,500&display=swap');
+
+*{
+   margin: 0;
+   padding: 0; 
+   box-sizing: border-box;
+   text-decoration: none;
+}
+body{
+    font-size: 100%;
+    background: linear-gradient(90deg, rgba(128,128,128,1) 0%, rgba(0,0,0,0.9668242296918768) 41%, rgba(55,53,71,1) 95%);
+}
+.cabeçalho{
+    border-top: 0.4px solid;
+    margin-bottom:  48px; ;
+}
+.nave{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.conteudo-principal{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.paragrafo1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400; 
+    font-size: 64px;
+    color: white;
+}
+.paragrafo2{
+font-family: 'Poppins', sans-serif;
+font-weight: 400;
+font-size: 24px;
+color: white;
+}
+.botao{
+    background-color: white;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 25);
+border-radius: 20px;
+font-family: 'Poppins', sans-serif;
+font-weight: 400;
+font-size: 24px;
+color: black;
+}
+.imagem1{
+    height: 430px ;
+}
+.navegaçao{
+   display: flex; 
+   flex-direction: row;
+   align-items: center;
+   gap: 24px;
+   margin-top: 48px;
+
+}
+.paragrafo3{
+    border-top: 0.4px solid white;
+    padding-top: 49px ;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+font-size: 24px;
+color: white;
+margin-bottom: 16px;
+}
+.paragrafo4{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+font-size: 24px;
+color: white;
+margin-bottom: 16px;
+border-top: 0.4px solid white;
+padding-top: 49px ;
+}
+.imagem-principal{
+    height: 100px ;
+    width: 200px;
+}
+p{
+    display: flex; 
+    gap: 24px;
+    margin-top: 48px;
+    color: white;
+}
+.redes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.texto-rede{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: white;
+    margin-bottom: 16px;
+border-top: 0.4px solid white;
+padding-top: 49px ;
+}
+.coluna{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: 400;
+font-size: 24px;
+}
